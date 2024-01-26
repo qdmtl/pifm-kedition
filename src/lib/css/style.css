@@ -1,0 +1,10 @@
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  color: #333333;
+}
+body {
+  margin: 0;
+}
