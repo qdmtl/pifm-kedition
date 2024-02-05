@@ -1,7 +1,19 @@
 <script>
   import Information from '$lib/components/Information.svelte';
-//  import Map from '$lib/components/Map.svelte';
+  import Leaflet from '$lib/components/Leaflet.svelte';
+  import Console from '$lib/components/Console.svelte';
 </script>
 
 <Information />
-<!-- <Map /> -->
+
+<main>
+  <Leaflet>
+    <Console />
+  </Leaflet>
+</main>
+
+<style>
+  main {
+    height: calc(100vh - 40px);
+  }
+</style>
