@@ -5,9 +5,10 @@ import { displayBlock  } from '$lib/js/displayBlock.js'
 // la valeur de header est assignée par `bind:this={header}`
 // this est l'élément html, dans ce cas : div#information-header
 // bind signifie : assigne this à header
+let header;
+
 // note : header est undefined tant que le composant n'est pas monté (voir onMount())
 // note (suite): sans effet ici car on ne peut pas cliquer avant que le composant ne soit monté
-let header;
 
 </script>
 
