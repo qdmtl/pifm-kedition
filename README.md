@@ -1,38 +1,39 @@
-# create-svelte
+# PIFM - Kool Kids Edition
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+Version [Svelte](https://svelte.dev) du PIFM.
 
-## Creating a project
+# Installation
 
-If you're seeing this, you've probably already done this step. Congrats!
+Placer les tuiles dans le répertoire `/static/t/` (l’application actuelle ne les utilise pas pour l’instant, donc il est possible de sauter cette étape).
+
+Cloner le dépôt :
 
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
+$ git clone git@github.com:qdmtl/pifm-kedition.git
 ```
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Installer les dépendances :
 
 ```bash
-npm run dev
+$ cd pifm-kedition
+$ npm install
+```
+
+Démarrer le serveur de développement :
+
+```bash
+$ npm run dev
 
 # or start the server and open the app in a new browser tab
-npm run dev -- --open
+$ npm run dev -- --open
 ```
 
 ## Building
 
-To create a production version of your app:
+To create a production version of your app (pas configuré):
 
 ```bash
-npm run build
+$ npm run build
 ```
 
 You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
